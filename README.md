@@ -7,7 +7,6 @@ This project, completed as part of my Polytechnic coursework, is a two-part game
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
