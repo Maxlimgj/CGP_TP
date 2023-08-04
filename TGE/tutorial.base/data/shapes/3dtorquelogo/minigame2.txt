@@ -1,0 +1,43 @@
+C:/Users/user/Desktop/TGE/tutorial.base/data/shapes/3dtorquelogo/minigame2.dif
+
+
+
+Constructor Version: 1.0.6
+
+
+
+Date: 2015/02/02 15:44:46
+
+
+Detail Level 0
+
+
+
+  Zones:         1
+
+  Points:        172
+
+  Surfaces:      105
+
+  Null Surfaces: 0
+
+  BSP Nodes:     111
+
+
+
+  Textures From Brushes:
+
+
+
+    FILLER_TILE1_04
+
+
+
+  Static Meshes and Textures:
+
+
+
+    -- None --
+
+
+

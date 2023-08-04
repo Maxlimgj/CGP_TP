@@ -1,0 +1,34 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiChunkedBitmapCtrl(instructions) {
+   canSaveDynamicFields = "0";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   position = "0 0";
+   Extent = "640 480";
+   MinExtent = "8 2";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+   bitmap = "./instructions.jpg";
+   useVariable = "0";
+   tile = "0";
+
+   new GuiButtonCtrl(goback) {
+      canSaveDynamicFields = "0";
+      Profile = "GuiButtonProfile";
+      HorizSizing = "right";
+      VertSizing = "bottom";
+      position = "44 252";
+      Extent = "140 30";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      Command = "goback();";
+      hovertime = "1000";
+      text = "Return";
+      groupNum = "-1";
+      buttonType = "PushButton";
+   };
+};
+//--- OBJECT WRITE END ---

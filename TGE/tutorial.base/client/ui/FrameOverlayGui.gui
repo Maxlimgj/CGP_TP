@@ -1,0 +1,28 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiControl(FrameOverlayGui) {
+   canSaveDynamicFields = "0";
+   Profile = "GuiModelessDialogProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   position = "0 0";
+   Extent = "640 480";
+   MinExtent = "8 8";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+
+   new GuiConsoleTextCtrl(TextOverlayControl) {
+      canSaveDynamicFields = "0";
+      Profile = "GuiTextProfile";
+      HorizSizing = "right";
+      VertSizing = "bottom";
+      position = "5 5";
+      Extent = "8 18";
+      MinExtent = "8 8";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      expression = "10";
+   };
+};
+//--- OBJECT WRITE END ---

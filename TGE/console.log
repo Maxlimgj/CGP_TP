@@ -1,0 +1,374 @@
+//-------------------------- 8/4/2023 -- 13:04:40 -----
+Processor Init:
+   AMD (unknown), ~3.67 Ghz
+     (timed at roughly 3.68 Ghz)
+   FPU detected
+   MMX detected
+   SSE detected
+ 
+Math Init:
+   Installing Standard C extensions
+   Installing Assembly extensions
+   Installing FPU extensions
+   Installing MMX extensions
+   Installing SSE extensions
+ 
+Input Init:
+   keyboard0 input device created.
+   mouse0 input device created.
+   DirectInput enabled.
+
+Initializing chunk mappings...
+   o 'TEXT' maps to TextChunk
+   o 'SCHK' maps to UnknownChunk
+   o 'SCHK' maps to SimChunk
+--------- Loading MODS ---------
+Loading compiled script tutorial.base/main.cs.
+Loading compiled script common/main.cs.
+Loading compiled script tutorial.base/client/defaults.cs.
+Loading compiled script tutorial.base/server/defaults.cs.
+Compiling tutorial.base/prefs.cs...
+Loading compiled script tutorial.base/prefs.cs.
+Loading compiled script creator/main.cs.
+Loading compiled script common/main.cs.
+
+--------- Parsing Arguments ---------
+
+--------- Initializing MOD: Common ---------
+Loading compiled script common/client/canvas.cs.
+Loading compiled script common/client/audio.cs.
+
+--------- Initializing TTB: Server ---------
+Loading compiled script common/server/audio.cs.
+Loading compiled script common/server/server.cs.
+Loading compiled script common/server/message.cs.
+Loading compiled script common/server/commands.cs.
+Loading compiled script common/server/missionInfo.cs.
+Loading compiled script common/server/missionLoad.cs.
+Loading compiled script common/server/missionDownload.cs.
+Loading compiled script common/server/clientConnection.cs.
+Loading compiled script common/server/kickban.cs.
+Loading compiled script common/server/game.cs.
+Loading compiled script tutorial.base/server/game.cs.
+
+--------- Initializing TTB: Client ---------
+Loading compiled script common/client/message.cs.
+Loading compiled script common/client/mission.cs.
+Loading compiled script common/client/missionDownload.cs.
+Loading compiled script common/client/actionMap.cs.
+Video Init:
+   Accelerated OpenGL display device detected.
+   Accelerated D3D device detected.
+   Voodoo 2 display device not detected.
+
+Activating the OpenGL display device...
+Activating the OpenGL display device...
+Setting screen mode to 720x576x32 (w)...
+Creating a new window...
+Acquiring a new device context...
+Pixel format set:
+  32 color bits, 24 depth bits, 8 stencil bits
+Creating a new rendering context...
+Making the new rendering context current...
+OpenGL driver information:
+  Vendor: NVIDIA Corporation
+  Renderer: NVIDIA GeForce RTX 3060 Ti/PCIe/SSE2
+  Version: 4.6.0 NVIDIA 531.79
+OpenGL Init: Enabled Extensions
+  ARB_multitexture (Max Texture Units: 4)
+  EXT_blend_color
+  EXT_blend_minmax
+  EXT_compiled_vertex_array
+  NV_vertex_array_range
+  EXT_texture_env_combine
+  EXT_packed_pixels
+  EXT_fog_coord
+  ARB_texture_compression
+  EXT_texture_compression_s3tc
+  (ARB|EXT)_texture_env_add
+  EXT_texture_filter_anisotropic (Max anisotropy: 16)
+  WGL_EXT_swap_control
+OpenGL Init: Disabled Extensions
+  EXT_paletted_texture
+  3DFX_texture_compression_FXT1
+
+Loading compiled script common/ui/defaultProfiles.cs.
+Loading compiled script common/ui/ConsoleDlg.gui.
+Loading compiled script common/ui/LoadFileDlg.gui.
+Loading compiled script common/ui/ColorPickerDlg.gui.
+Loading compiled script common/ui/SaveFileDlg.gui.
+Loading compiled script common/ui/MessageBoxOkDlg.gui.
+Loading compiled script common/ui/MessageBoxYesNoDlg.gui.
+Loading compiled script common/ui/MessageBoxOKCancelDlg.gui.
+Loading compiled script common/ui/MessagePopupDlg.gui.
+Loading compiled script common/ui/HelpDlg.gui.
+Loading compiled script common/ui/RecordingsDlg.gui.
+Loading compiled script common/ui/NetGraphGui.gui.
+Loading compiled script common/client/metrics.cs.
+Loading compiled script common/ui/FrameOverlayGui.gui.
+Loading compiled script common/client/messageBox.cs.
+Loading compiled script common/client/screenshot.cs.
+Loading compiled script common/client/cursor.cs.
+Loading compiled script common/client/help.cs.
+Loading compiled script common/client/recordings.cs.
+
+OpenAL Driver Init:
+OpenAL
+   Vendor: Creative Labs Inc.
+   Version: 1.1
+   Renderer: Software
+   Extensions: EAX EAX2.0 EAX3.0 EAX4.0 EAX5.0 EAX3.0EMULATED EAX4.0EMULATED AL_EXT_OFFSET AL_EXT_LINEAR_DISTANCE AL_EXT_EXPONENT_DISTANCE
+
+Loading compiled script tutorial.base/client/audioProfiles.cs.
+Loading compiled script tutorial.base/client/ui/PlayGui.gui.
+Could not locate texture: tutorial.base/data/shapes/items/key.jpg
+Loading compiled script tutorial.base/client/ui/mainMenuGui.gui.
+Loading compiled script tutorial.base/client/ui/optionsDlg.gui.
+Loading compiled script tutorial.base/client/ui/loadingGui.gui.
+Error: cannot change namespace parent linkage for LoadingProgressTxt from GuiProgressCtrl to GuiTextCtrl.
+Loading compiled script tutorial.base/client/ui/instructions.gui.
+Error: cannot change namespace parent linkage for instructions from GuiButtonCtrl to GuiChunkedBitmapCtrl.
+Loading compiled script tutorial.base/client/optionsDlg.cs.
+Loading compiled script tutorial.base/client/missionDownload.cs.
+Loading compiled script tutorial.base/client/serverConnection.cs.
+Loading compiled script tutorial.base/client/loadingGui.cs.
+Loading compiled script tutorial.base/client/playGui.cs.
+Loading compiled script tutorial.base/client/default.bind.cs.
+
+--------- Initializing: Torque Creator ---------
+Loading compiled script creator/editor/editor.cs.
+Loading compiled script creator/editor/particleEditor.cs.
+Loading compiled script creator/scripts/scriptDoc.cs.
+Loading compiled script creator/ui/creatorProfiles.cs.
+Loading compiled script creator/ui/InspectDlg.gui.
+Loading compiled script creator/ui/GuiEditorGui.gui.
+Loading compiled script creator/ui/lightEditor.gui.
+Loading compiled script creator/ui/lightEditorNewDB.gui.
+Engine initialized...
+RSS Feed
+   - Requesting RSS data at URL: /garagegames/rss/product/tge/oobe
+   - Got 28 lines.
+   - Feed title: ''
+   - Feed link:  ''
+   - Headline      #0 : ''
+   - Headline Link #0 : ''
+   - Headline      #1 : ''
+   - Headline Link #1 : ''
+   - Headline      #2 : ''
+   - Headline Link #2 : ''
+tutorial.base/client/ui/mainMenuGui.gui (174): Unable to find object: 'RSSFeedMLText' attempting to call function 'setText'
+tutorial.base/client/ui/mainMenuGui.gui (176): Unable to find object: 'RSSFeedMLText' attempting to call function 'addText'
+tutorial.base/client/ui/mainMenuGui.gui (176): Unable to find object: 'RSSFeedMLText' attempting to call function 'addText'
+tutorial.base/client/ui/mainMenuGui.gui (176): Unable to find object: 'RSSFeedMLText' attempting to call function 'addText'
+tutorial.base/client/ui/mainMenuGui.gui (177): Unable to find object: 'RSSFeedMLText' attempting to call function 'addText'
+RSS Feed
+   - Requesting RSS data at URL: /garagegames/rss/product/tge/oobe
+Exporting server prefs...
+Exporting server prefs...
+Loading compiled script tutorial.base/server/camera.cs.
+Loading compiled script tutorial.base/server/editor.cs.
+... Shape with old version.
+Loading compiled script tutorial.base/server/player.cs.
+Sequence import failed:  sequence node "Bip01 Pelvis" not found in base shape.
+tutorial.base/server/player.cs (22): preload failed for PlayerDts: Load sequence tutorial.base/data/shapes/player/player_root.dsq root failed for tutorial.base/data/shapes/player/player.dts.
+Loading compiled script tutorial.base/server/logoitem.cs.
+Warning: shape tutorial.base/data/shapes/3dtorquelogo/torque_logo.dts collision detail 0 (Collision-1) bounds exceed that of shape.
+Loading compiled script student.script/HellMazeTrigger.cs.
+Loading compiled script student.script/HellMazeFinishTrigger.cs.
+Loading compiled script student.script/Minigame1PortalTrigger.cs.
+Loading compiled script student.script/Minigame1FinishPortalTrigger.cs.
+Loading compiled script student.script/Minigame2PortalTrigger.cs.
+Loading compiled script student.script/Minigame2FinishPortalTrigger.cs.
+Loading compiled script student.script/GoldenTowerBeginTrigger.cs.
+Loading compiled script student.script/GoldenTowerEntranceTrigger.cs.
+Loading compiled script student.script/GoldenTowerFirstFloorTrigger.cs.
+Loading compiled script student.script/countdownClock.cs.
+Missing file: student.script/shapeBase.cs!
+Loading compiled script student.script/WaterDamageTrigger.cs.
+Loading compiled script tutorial.base/server/trigger.cs.
+Loading compiled script tutorial.base/server/bob.cs.
+Loading compiled script tutorial.base/server/rocket_launcher.cs.
+Object 'AudioDefault3d' is not a member of the 'AudioDescription' data block class
+Loading compiled script tutorial.base/server/rocket_launcher2.cs.
+Object 'AudioDefault3d' is not a member of the 'AudioDescription' data block class
+Loading compiled script student.script/WaterDamageTrigger2.cs.
+Loading compiled script tutorial.base/server/ai.cs.
+Loading compiled script tutorial.base/server/bob2.cs.
+Loading compiled script tutorial.base/server/health.cs.
+Loading compiled script tutorial.base/server/rocketaudioaudioProfiles.cs.
+Loading compiled script common/server/lightingSystem.cs.
+
+//-----------------------------------------------
+
+Loading light datablocks from: common/lighting/lights/*.dso
+Loading compiled script common/lighting/lights/sgTowerFireLightDataBlock.cs.
+Loading compiled script common/lighting/lights/sgTempleWindowStaticPSDataBlock.cs.
+Loading compiled script common/lighting/lights/sgTempleTorchStaticPSDataBlock.cs.
+Loading compiled script common/lighting/lights/sgTempleSmallWindowStaticPSDataBlock.cs.
+Loading compiled script common/lighting/lights/sgSpotSwingStaticDataBlock.cs.
+Loading compiled script common/lighting/lights/sgSpotDataBlock.cs.
+Loading compiled script common/lighting/lights/sgSpot2DataBlock.cs.
+Loading compiled script common/lighting/lights/sgRedLightDataBlock.cs.
+Loading compiled script common/lighting/lights/sgMountLight.cs.
+Loading compiled script common/lighting/lights/sgLanternPSDataBlock.cs.
+Loading compiled script common/lighting/lights/sgGooDataBlock.cs.
+Loading compiled script common/lighting/lights/sgFirePitStaticPSDataBlock.cs.
+Loading compiled script common/lighting/lights/sgFirePitPSDataBlock.cs.
+Loading compiled script common/lighting/lights/sgDynamicFireDataBlock.cs.
+Loading compiled script common/lighting/lights/sgDefaultLightDataBlock.cs.
+Loading compiled script common/lighting/lights/sgBlueLightDataBlock.cs.
+Loading compiled script common/lighting/lights/CottageLight.cs.
+
+Loading light datablocks from: common/lighting/lights/*.cs
+Loading compiled script common/lighting/lights/sgTowerFireLightDataBlock.cs.
+Loading compiled script common/lighting/lights/sgTempleWindowStaticPSDataBlock.cs.
+Loading compiled script common/lighting/lights/sgTempleTorchStaticPSDataBlock.cs.
+Loading compiled script common/lighting/lights/sgTempleSmallWindowStaticPSDataBlock.cs.
+Loading compiled script common/lighting/lights/sgSpotSwingStaticDataBlock.cs.
+Loading compiled script common/lighting/lights/sgSpotDataBlock.cs.
+Loading compiled script common/lighting/lights/sgSpot2DataBlock.cs.
+Loading compiled script common/lighting/lights/sgRedLightDataBlock.cs.
+Loading compiled script common/lighting/lights/sgMountLight.cs.
+Loading compiled script common/lighting/lights/sgLanternPSDataBlock.cs.
+Loading compiled script common/lighting/lights/sgGooDataBlock.cs.
+Loading compiled script common/lighting/lights/sgFirePitStaticPSDataBlock.cs.
+Loading compiled script common/lighting/lights/sgFirePitPSDataBlock.cs.
+Loading compiled script common/lighting/lights/sgDynamicFireDataBlock.cs.
+Loading compiled script common/lighting/lights/sgDefaultLightDataBlock.cs.
+Loading compiled script common/lighting/lights/sgBlueLightDataBlock.cs.
+Loading compiled script common/lighting/lights/CottageLight.cs.
+Loading complete.
+//-----------------------------------------------
+
+
+//-----------------------------------------------
+
+Loading light datablocks from: common/lighting/filters/*.dso
+Loading compiled script common/lighting/filters/test.cs.
+
+Loading light datablocks from: common/lighting/filters/*.cs
+Loading compiled script common/lighting/filters/test.cs.
+Loading complete.
+//-----------------------------------------------
+
+*** LOADING MISSION: tutorial.base/data/missions/project.mis
+*** Stage 1 load
+common/server/missionLoad.cs (23): Unable to find function clearCenterPrintAll
+common/server/missionLoad.cs (24): Unable to find function clearBottomPrintAll
+*** Stage 2 load
+Executing tutorial.base/data/missions/project.mis.
+*** Mission loaded
+Connect request from: IP:0.0.0.0:0
+Connection established 1460
+CADD: 1461 local
+*** Sending mission load to client: tutorial.base/data/missions/project.mis
+   - Got 28 lines.
+   - Feed title: ''
+   - Feed link:  ''
+   - Headline      #0 : ''
+   - Headline Link #0 : ''
+   - Headline      #1 : ''
+   - Headline Link #1 : ''
+   - Headline      #2 : ''
+   - Headline Link #2 : ''
+tutorial.base/client/ui/mainMenuGui.gui (174): Unable to find object: 'RSSFeedMLText' attempting to call function 'setText'
+tutorial.base/client/ui/mainMenuGui.gui (176): Unable to find object: 'RSSFeedMLText' attempting to call function 'addText'
+tutorial.base/client/ui/mainMenuGui.gui (176): Unable to find object: 'RSSFeedMLText' attempting to call function 'addText'
+tutorial.base/client/ui/mainMenuGui.gui (176): Unable to find object: 'RSSFeedMLText' attempting to call function 'addText'
+tutorial.base/client/ui/mainMenuGui.gui (177): Unable to find object: 'RSSFeedMLText' attempting to call function 'addText'
+Mapping string: ServerMessage to index: 0
+Mapping string: MsgConnectionError to index: 1
+Mapping string: MsgLoadInfo to index: 2
+tutorial.base/client/missionDownload.cs (120): Unable to find object: 'LOAD_MapName' attempting to call function 'setText'
+Mapping string: MsgLoadDescripition to index: 3
+tutorial.base/client/missionDownload.cs (138): Unable to find object: 'LOAD_MapDescription' attempting to call function 'setText'
+RSS Feed
+   - Requesting RSS data at URL: /garagegames/rss/product/tge/oobe
+Mapping string: MsgLoadInfoDone to index: 4
+Mapping string: MsgClientJoin to index: 5
+Mapping string: Welcome to the Torque demo app %1. to index: 6
+Mapping string: Player to index: 7
+Mapping string: MissionStartPhase1 to index: 8
+*** New Mission: tutorial.base/data/missions/project.mis
+*** Phase 1: Download Datablocks & Targets
+tutorial.base/client/missionDownload.cs (29): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+Mapping string: MissionStartPhase1Ack to index: 0
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+Warning: shape tutorial.base/data/shapes/3dtorquelogo/torque_logo.dts collision detail 1 (Collision-1) bounds exceed that of shape.
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+Could not locate texture: tutorial.base/data/shapes/oni/*root
+Could not locate texture: tutorial.base/data/shapes/oni/*run
+Could not locate texture: tutorial.base/data/shapes/oni/*die
+Could not locate texture: tutorial.base/data/shapes/oni/*jump
+Could not locate texture: tutorial.base/data/shapes/oni/*side
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+   - Got 28 lines.
+   - Feed title: ''
+   - Feed link:  ''
+   - Headline      #0 : ''
+   - Headline Link #0 : ''
+   - Headline      #1 : ''
+   - Headline Link #1 : ''
+   - Headline      #2 : ''
+   - Headline Link #2 : ''
+tutorial.base/client/ui/mainMenuGui.gui (174): Unable to find object: 'RSSFeedMLText' attempting to call function 'setText'
+tutorial.base/client/ui/mainMenuGui.gui (176): Unable to find object: 'RSSFeedMLText' attempting to call function 'addText'
+tutorial.base/client/ui/mainMenuGui.gui (176): Unable to find object: 'RSSFeedMLText' attempting to call function 'addText'
+tutorial.base/client/ui/mainMenuGui.gui (176): Unable to find object: 'RSSFeedMLText' attempting to call function 'addText'
+tutorial.base/client/ui/mainMenuGui.gui (177): Unable to find object: 'RSSFeedMLText' attempting to call function 'addText'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+tutorial.base/client/missionDownload.cs (35): Unable to find object: 'LoadingProgress' attempting to call function 'setValue'
+Exporting prefs
+Exporting client prefs
+Exporting server prefs
+Error, cannot unlink namespace parent linkage for instructions for GuiButtonCtrl.
+CDROP: 1461 IP:0.0.0.0:0
+Shutting down the OpenGL display device...
+Making the GL rendering context not current...
+Deleting the GL rendering context...
+Releasing the device context...

@@ -1,0 +1,87 @@
+//--- OBJECT WRITE BEGIN ---
+new GameTSCtrl(PlayGui) {
+   canSaveDynamicFields = "1";
+   Profile = "GuiContentProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   position = "0 0";
+   Extent = "640 480";
+   MinExtent = "8 8";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+   applyFilterToChildren = "1";
+   cameraZRot = "0";
+   forceFOV = "0";
+      noCursor = "1";
+      helpTag = "0";
+
+   new GuiHealthBarHud() {
+      canSaveDynamicFields = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "right";
+      VertSizing = "top";
+      position = "14 315";
+      Extent = "26 138";
+      MinExtent = "8 8";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      fillColor = "0 0 0 0.5";
+      frameColor = "0 1 0 0";
+      damageFillColor = "0.8 0 0 1";
+      pulseRate = "1000";
+      pulseThreshold = "0.5";
+      flipped = "0";
+      showFill = "1";
+      showFrame = "1";
+      displayEnergy = "0";
+   };
+   new GuiBitmapCtrl() {
+      canSaveDynamicFields = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "right";
+      VertSizing = "top";
+      position = "11 299";
+      Extent = "32 172";
+      MinExtent = "8 8";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      bitmap = "./healthBar";
+      wrap = "0";
+   };
+   new GuiBitmapCtrl(imageKey) {
+      canSaveDynamicFields = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "right";
+      VertSizing = "bottom";
+      position = "553 70";
+      Extent = "64 64";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "0";
+      hovertime = "1000";
+      bitmap = "~/data/shapes/items/key.jpg";
+      wrap = "0";
+   };
+   new GuiCrossHairHud() {
+      canSaveDynamicFields = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "center";
+      VertSizing = "center";
+      position = "304 224";
+      Extent = "32 32";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      bitmap = "./crossHair.png";
+      wrap = "0";
+      damageFillColor = "0 1 0 1";
+      damageFrameColor = "1 0.6 0 1";
+      damageRect = "50 4";
+      damageOffset = "0 32";
+   };
+};
+//--- OBJECT WRITE END ---

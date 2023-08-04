@@ -1,0 +1,45 @@
+datablock TriggerData(GoldenTowerFirstFloorTrigger)
+{
+	tickPeriodMS = 100;
+};
+
+function GoldenTowerFirstFloorTrigger::onEnterTrigger(%this, %trigger, %obj)
+{
+	%client = %obj.client;
+	commandToClient(%client, 'ShowGoldenTowerFirstFloor');
+	
+	Parent::onEnterTrigger(%this, %trigger, %obj);
+}
+
+function GoldenTowerFirstFloorTrigger::onTickTrigger(%this, %trigger)
+{	
+	Parent::onTickTrigger(%this, %trigger);
+}
+
+function clientCmdShowGoldenTowerFirstFloor()
+{
+	MessageBoxYesNo("", "Are you ready for 2nd Floor?", "GoldenTowerSecondFloorLocation(myPlayer);", "Pus");
+}
+
+function GoldenTowerSecondFloorLocation(%obj)
+{
+	%obj.setTransform("-49.4386 -526.288 170.69 0 0 1 225.563");
+	return(%obj);
+}
+
+function FirstFloorCompletionCounter()
+{
+	%count = 0;
+	if(normalmob.IsSummoned)
+	{
+		%count++;
+	}
+	else if(normalmob.IsDead)
+	{
+		%count--;
+		if(%count=0)
+		{
+			exec("student.script/GoldenTowerSecondFloorTrigger.cs");
+		}
+	}
+}

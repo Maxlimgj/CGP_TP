@@ -1,0 +1,46 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiChunkedBitmapCtrl(guiloading) {
+   canSaveDynamicFields = "0";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   position = "0 0";
+   Extent = "640 480";
+   MinExtent = "8 2";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+   bitmap = "./ONI.jpg";
+   useVariable = "0";
+   tile = "0";
+
+   new GuiButtonCtrl() {
+      canSaveDynamicFields = "0";
+      Profile = "GuiButtonProfile";
+      HorizSizing = "right";
+      VertSizing = "bottom";
+      position = "118 109";
+      Extent = "397 266";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      groupNum = "-1";
+      buttonType = "PushButton";
+   };
+   new GuiProgressCtrl(progressctrl) {
+      canSaveDynamicFields = "0";
+      Profile = "GuiProgressProfile";
+      HorizSizing = "right";
+      VertSizing = "bottom";
+      position = "253 295";
+      Extent = "156 27";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      text = "Oni don\'t have the patient";
+      maxLength = "1024";
+   };
+};
+//--- OBJECT WRITE END ---

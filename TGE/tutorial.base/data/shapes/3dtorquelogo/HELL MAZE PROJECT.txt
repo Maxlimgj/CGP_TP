@@ -1,0 +1,45 @@
+C:/Users/user/Desktop/TGE/tutorial.base/data/shapes/3dtorquelogo/HELL MAZE PROJECT.dif
+
+
+
+Constructor Version: 1.0.6
+
+
+
+Date: 2015/01/31 17:06:43
+
+
+Detail Level 0
+
+
+
+  Zones:         1
+
+  Points:        1478
+
+  Surfaces:      885
+
+  Null Surfaces: 0
+
+  BSP Nodes:     725
+
+
+
+  Textures From Brushes:
+
+
+
+    IMAGES (3)
+
+    IMAGES (4)
+
+
+
+  Static Meshes and Textures:
+
+
+
+    -- None --
+
+
+

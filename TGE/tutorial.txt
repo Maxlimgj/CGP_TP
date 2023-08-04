@@ -1,0 +1,43 @@
+C:/Users/user/Desktop/TGE/tutorial.base/data/shapes/3dtorquelogo/floatingtower
+
+
+
+Constructor Version: 1.0.6
+
+
+
+Date: 2015/01/21 18:26:03
+
+
+Detail Level 0
+
+
+
+  Zones:         1
+
+  Points:        3475
+
+  Surfaces:      1964
+
+  Null Surfaces: 0
+
+  BSP Nodes:     3456
+
+
+
+  Textures From Brushes:
+
+
+
+    IMAGES (1)
+
+
+
+  Static Meshes and Textures:
+
+
+
+    -- None --
+
+
+

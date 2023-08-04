@@ -1,0 +1,128 @@
+new GuiControlProfile ("LoadingGuiContentProfile")
+{
+   opaque = true;
+   fillColor = "200 200 200";
+   border = true;
+   borderColor   = "0 0 0";
+};
+
+//--- OBJECT WRITE BEGIN ---
+new GuiChunkedBitmapCtrl(LoadingGui) {
+   canSaveDynamicFields = "0";
+   Profile = "GuiContentProfile";
+   HorizSizing = "width";
+   VertSizing = "height";
+   position = "0 0";
+   Extent = "640 480";
+   MinExtent = "8 8";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+   bitmap = "./loadingscreen.png";
+   useVariable = "0";
+   tile = "0";
+
+   new GuiChunkedBitmapCtrl() {
+      canSaveDynamicFields = "0";
+      Profile = "GuiDefaultProfile";
+      HorizSizing = "right";
+      VertSizing = "bottom";
+      position = "-2 6";
+      Extent = "631 479";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      bitmap = "./loadingscreen.png";
+      useVariable = "0";
+      tile = "0";
+   };
+   new GuiControl() {
+      canSaveDynamicFields = "0";
+      Profile = "LoadingGuiContentProfile";
+      HorizSizing = "relative";
+      VertSizing = "relative";
+      position = "92 272";
+      Extent = "468 172";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+
+      new GuiProgressCtrl(LoadingProgressTxt) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiProgressProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "126 79";
+         Extent = "290 33";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         maxLength = "1024";
+
+         new GuiTextCtrl(LoadingProgressTxt) {
+            canSaveDynamicFields = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "right";
+            VertSizing = "bottom";
+            position = "15 0";
+            Extent = "256 29";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            hovertime = "1000";
+            text = "WAITING FOR SERVER";
+            maxLength = "1024";
+         };
+      };
+      new GuiButtonCtrl(cancelbtn) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "18 81";
+         Extent = "95 31";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "disconnect();";
+         hovertime = "1000";
+         text = "Cancel";
+         groupNum = "-1";
+         buttonType = "PushButton";
+      };
+      new GuiTextCtrl(title) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiMediumTextProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "21 7";
+         Extent = "88 28";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         text = "Welcome";
+         maxLength = "1024";
+      };
+      new GuiMLTextCtrl(playerstip) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiMLTextProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "16 41";
+         Extent = "304 14";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         lineSpacing = "2";
+         allowColorChars = "0";
+         maxChars = "-1";
+         text = "TIP: KEEP MOVING";
+      };
+   };
+};
+//--- OBJECT WRITE END ---
