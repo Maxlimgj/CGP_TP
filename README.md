@@ -34,4 +34,4 @@ In the FPS game, you are tasked with defeating enemies in various scenarios. Use
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-[![Alt Text](thumbnail-url)](https://www.youtube.com/watch?v=YjyXMDV3jJ8)
+[![Alt Text](Oni-Master)](https://www.youtube.com/watch?v=YjyXMDV3jJ8)
